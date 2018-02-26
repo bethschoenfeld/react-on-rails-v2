@@ -48,3 +48,4 @@ class DoctorsController < ApplicationController
       params.require(:doctor).permit(:name, :specialty, :insurance, :gender)
     end
 end
+# Make a change
